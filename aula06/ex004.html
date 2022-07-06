@@ -9,15 +9,15 @@
         h1 {
             font-size: 32px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: azure;
+            color: rgb(0, 71, 71);
         }
         h2 {
             font-size: 16px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: beige;
+            color: rgb(59, 59, 0);
         }
         body {
-            background-color:black;
+            background-color:rgb(105, 105, 105);
             text-align: center;
 
         }
@@ -27,9 +27,9 @@
     <h1>Olá, mundo!</h1>
     <h2>Vamos aos teste de JS!</h2>
     <script>
-        window.alert('Seja bem vindo a Hello Word!'); //abre uma caixa de alerta
-        window.confirm('Gostando de JS?'); //abre uma caixa de confirmação
-        window.prompt('Qual seu nome?'); //abre uma caixa para digitar algo
+        var nome = window.prompt('Qual é seu nome?');
+        document.write(`Seu nome tem ${nome.length} letras <br/>`);
+        document.write(`Seu nome em maiusculo é ${nome.toUpperCase()}`);
     </script>
 </body>
 </html>

@@ -27,9 +27,12 @@
     <h1>Olá, mundo!</h1>
     <h2>Vamos aos teste de JS!</h2>
     <script>
-        window.alert('Seja bem vindo a Hello Word!'); //abre uma caixa de alerta
-        window.confirm('Gostando de JS?'); //abre uma caixa de confirmação
-        window.prompt('Qual seu nome?'); //abre uma caixa para digitar algo
+        var n1 = Number(window.prompt('Digite um número: ')); //transforma uma string em numero - Number(n) ou Number.parseInt
+        var n2 = Number(window.prompt('Digite mais um número: ')); // converter numero para string - String(n) ou n.toString
+        var soma = n1 + n2
+        window.alert(`A soma dos numeros é: ${soma}`);
+        window.alert('A multiplicação entre eles dá: ' + n1 * n2);
+        //+ serve para adição e contatenação
     </script>
 </body>
 </html>
