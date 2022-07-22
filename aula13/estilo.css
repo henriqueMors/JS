@@ -23,3 +23,8 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#img {
+    width: 500px;
+    height: 333px;
+}
