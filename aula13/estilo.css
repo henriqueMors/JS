@@ -18,6 +18,10 @@ section {
     height: 500px;
     
 }
+#msg {
+    text-align: center;
+    padding: 10px;
+}
 
 footer {
     text-align: center;
@@ -29,4 +33,9 @@ footer {
     height: 333px;
     border-radius: 15px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.747);
+}
+
+#msg2 {
+    text-align: center;
+    padding: 10px;
 }
