@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Page</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body onload="carregar()">
     <header>
-        <h1>Bem Vindo!</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div id="msg">
-            HORA
+        <div>
+            <p>Ano de nascimento: </p>
+            <input type="number" name="txtano" id="txtano">
+            <p>Sexo: </p>
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+
+            <p><input type="button" value="Verificar"></p>
         </div>
-        <div id="Foto">
-            <img id="img" src=".\imagens\manha.jpg" alt="Foto do dia" srcset="">
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
         </div>
         <div>
-            <p id="msg2">
-                mensagem
-            </p>
+
         </div>
     </section>
     <footer>
