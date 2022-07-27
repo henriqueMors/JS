@@ -7,3 +7,7 @@ console.log(`Nosso vetor é ${num}`)
 console.log(num.length)
 console.log(num.sort())
 console.log(`Nosso vetor é ${num[2]}`)
+
+for(pos=0; pos<=num.length; pos++) {
+    console.log(num[pos])
+}
