@@ -3,9 +3,16 @@ function tabuada() {
     var tab = document.getElementById("seltab")
 
     if (num.value.length == 0) {
-         var n = Number(num.value)
+         window.alert("[ ERRO ] - Digite um número!")
     } else {
-        window.alert("[ ERRO ] - Digite um número!")
+        var num = Number(num.value)
+        var c = 1
+        while (c<=10) {
+            var item = document.createElement("option")
+            item.text = `${num} x ${c} = ${num*c}`
+            tab.appendChild(item)
+            c++
+        }
     }
    
 
