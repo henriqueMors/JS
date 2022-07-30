@@ -1,5 +1,5 @@
 let alt = document.getElementById("background")
-alt.addEventListener ('mousedown', segurou) 
+alt.addEventListener ('mousedown', segurou)
 
 function gerar_cor(opacidade = 1) {
     let r = Math.random() * 255;
