@@ -1,6 +1,7 @@
 body {
     background-color: darkgray;
     font: normal 20px arial;
+    align-items: center;
 }
 
 header{
