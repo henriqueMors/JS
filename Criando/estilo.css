@@ -10,6 +10,8 @@ header{
 section {
     background-color: azure;
     padding: 15px;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgba(59, 59, 59, 0.9);
     width: 80px;
     height: 20px;
 }
@@ -19,6 +21,7 @@ section {
 footer {
     text-align: center;
     font-style: italic;
+    padding: 15px;
 }
 
 #botao {
