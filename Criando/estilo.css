@@ -1,0 +1,27 @@
+body {
+    background-color: darkgray;
+    font: normal 20px arial;
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    background-color: azure;
+    padding: 15px;
+    width: 80px;
+    height: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+#botao {
+    align-items: center;
+    text-align: center;
+}
