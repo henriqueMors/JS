@@ -8,12 +8,12 @@ function gerar_cor(opacidade = 1) {
  
     return `rgba(${r}, ${g}, ${b}, ${opacidade})`;
  }
+ 
 function clicou() {
-    let alt = document.getElementById("background")
     alt.style.background = gerar_cor()
     
 }
-
+let a = alt.style.background = gerar_cor()
 function segurou() {
 
     alt.style.background = gerar_cor()
