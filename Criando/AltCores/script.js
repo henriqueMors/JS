@@ -1,5 +1,6 @@
-let alt = document.getElementById("background")
-alt.addEventListener ('mousedown', segurou)
+let color = document.getElementById("colorir")
+color.addEventListener ('mousedown', segurou)
+
 
 function gerar_cor(opacidade = 1) {
     let r = Math.random() * 255;
@@ -10,7 +11,7 @@ function gerar_cor(opacidade = 1) {
  }
  
 function clicou() {
-    alt.style.background = gerar_cor()
+    alt.style.backgroundColor = gerar_cor()
     
 }
 let a = alt.style.background = gerar_cor()
