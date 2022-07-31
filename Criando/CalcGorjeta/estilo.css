@@ -2,11 +2,17 @@ body {
     text-align: center;
     padding: 40px;
     margin: auto;
-    background-color: rgba(0, 0, 255, 0.159);
+    background: rgba(32, 87, 32, 0.389);
+    width: 500px;
 }
 
 section {
-    background-color: aqua;
+    background-color: rgba(1, 117, 78, 0.087);
+    border-radius: 20px;
+    box-shadow: 25px 25px 15px;
+    height: 250px;
+    padding: 20px;
+    line-height: 20px;
 }
 
 h1 {
@@ -30,4 +36,5 @@ h3 {
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    padding: 50px;
 }
