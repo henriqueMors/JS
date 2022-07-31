@@ -22,7 +22,7 @@ function entrou() {
     alt.style.background = gerar_cor()
 }
 
-function saiu() {
+function saiu () {
     let alt = document.getElementById("colorir")
     alt.style.background = gerar_cor()
 }
