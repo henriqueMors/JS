@@ -17,3 +17,16 @@ if (h >= 6 && h < 12 ) {
         msg.innerHTML = `Obrigado e tenha uma boa noite`
     }
 }
+
+function calcular() {
+    var vc = window.document.getElementById('vconta')
+    var porc = window.document.getElementById('nivel')
+    var resg = window.document.getElementById('resg')
+    var rest = window.document.getElementById('rest')
+
+    var vc = Number(vc.value)
+    var porc = Number(porc.value)
+    var resg = Number(resg.value)
+    var rest = Number(rest.value)
+
+}

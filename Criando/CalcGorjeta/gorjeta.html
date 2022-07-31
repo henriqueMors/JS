@@ -15,8 +15,7 @@
         <section>
             <div>
                 <h2>Valor da conta:</h2>
-                    <input type="number" name="valcont" id="valcont">
-                    <input type="button" value="Inserir valor">
+                    <input type="number" name="valcont" id="vconta">
             </div>
 
             <div>
@@ -28,17 +27,19 @@
                         <option value="Ruim">Ruim</option>
                         <option value="Péssimo">Péssimo</option>
                     </select>
-                        <input type="button" value="Atendimento">
+                    <br>
+                    <br>
+                        <input type="button" value="Calcular gorjeta" onclick="calcular()">
             </div>
 
             <div>
                 <h2>Gorjeta:</h2>
-                    <p></p>
+                    <p id="resg"></p>
             </div>
 
             <div>
                 <h2>Valor Final: </h2>
-                    <p></p>
+                    <p id="rest"></p>
             </div>
 
             <div>
