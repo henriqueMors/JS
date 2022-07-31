@@ -19,6 +19,7 @@ if (h >= 6 && h < 12 ) {
 }
 
 function calcular() {
+
     var vc = window.document.getElementById('vconta')
     var porc = window.document.getElementById('nivel')
     var resg = window.document.getElementById('resg')
@@ -28,5 +29,10 @@ function calcular() {
     var porc = Number(porc.value)
     var resg = Number(resg.value)
     var rest = Number(rest.value)
+
+        if (porc == 'Ótimo') {
+            resg = vc * 15
+            resg.innerHTML =`O valor da sua gorjeta ficou em R$${resg}`
+            }
 
 }
