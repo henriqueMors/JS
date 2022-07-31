@@ -2,6 +2,11 @@ body {
     text-align: center;
     padding: 40px;
     margin: auto;
+    background-color: rgba(0, 0, 255, 0.159);
+}
+
+section {
+    background-color: aqua;
 }
 
 h1 {
