@@ -23,7 +23,14 @@ function calcular() {
     var n1 = Number(tn1.value)
 
     var tn2 = window.document.getElementById('txtn2')
-    var n2 
+
+
+
+    window.alert(tn2)
+
+    
+
+    var tn2 = window.document.getElementById('txtn2')
 }
 
 
