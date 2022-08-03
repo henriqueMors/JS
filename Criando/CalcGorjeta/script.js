@@ -24,7 +24,6 @@ function calcular() {
     
     var tn2 = window.document.getElementById('txtn2')
     var n2 = Number(tn2.value)
-    window.alert(tn2)
 }
 
 
