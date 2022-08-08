@@ -24,7 +24,12 @@ function calcular() {
     
     var tn2 = window.document.getElementById('txtn2')
     var n2 = Number(tn2.value)
-    window.alert(tn2)
+    if (n2 = `Otimo`){
+            n2 = 15
+        } else if (n2 = `Bom`){
+            n2 = 10
+        }
+    window.alert(n2)
 }
 
 
