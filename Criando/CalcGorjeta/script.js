@@ -20,10 +20,13 @@ if (h >= 6 && h < 12 ) {
 
 function calcular() {
     var tn1 = window.document.getElementById('txtn1')
-    var n1 = Number(tn1.value)
-    
-    var tn2 = window.document.getElementById('txtn2')
-    var n2 = Number(tn2.value)
+    var n1 = Number.parseFloat(tn1)
+        
+    var tn2 = window.document.getElementById('otimo')
+    var n2 = Number.parseFloat(tn2)
+
+    var rg = n1 + n2
+    window.alert(tn2)
 }
 
 
