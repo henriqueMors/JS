@@ -31,4 +31,7 @@ function calcular() {
     var rest = window.document.getElementById('rest')
     var rt = Number(rest.value)
 
+    resg = (n1 * 100) /n2
+    console.log(resg)
+
 }
