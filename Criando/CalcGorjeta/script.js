@@ -20,7 +20,6 @@ if (h >= 6 && h < 12 ) {
 
 function calcular() {
     var tn1 = window.document.getElementById('txtn1')
-<<<<<<< HEAD
     var n1 = Number(tn1.value)
     
     var tn2 = window.document.getElementById('txtn2')
@@ -31,7 +30,7 @@ function calcular() {
             n2 = 10
         }
     window.alert(n2)
-=======
+
     var n1 = Number.parseFloat(tn1)
         
     var tn2 = window.document.getElementById('otimo')
@@ -39,7 +38,6 @@ function calcular() {
 
     var rg = n1 + n2
     window.alert(tn2)
->>>>>>> ed942b6c8dcb493e4fe028c9c6fbd0f57d0c8a19
 }
 
 
