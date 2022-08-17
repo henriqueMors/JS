@@ -24,55 +24,11 @@ function calcular() {
     
     var tn2 = window.document.getElementById('txtn2')
     var n2 = Number(tn2.value)
-    if (n2 = `Otimo`){
-            n2 = 15
-        } else if (n2 = `Bom`){
-            n2 = 10
-        }
-    window.alert(n2)
 
-    var n1 = Number.parseFloat(tn1)
-        
-    var tn2 = window.document.getElementById('otimo')
-    var n2 = Number.parseFloat(tn2)
-
-    var rg = n1 + n2
-    window.alert(tn2)
-}
-
-
-
-
-/*{
-
-
-    var tn2 = window.document.getElementById('txtn2')
     var resg = window.document.getElementById('resg')
-    var rest = window.document.getElementById('rest')
-
-    var n1 = Number(tn1.value)
-    var n2 = Number(tn2.value)
     var rg = Number(resg.value)
+
+    var rest = window.document.getElementById('rest')
     var rt = Number(rest.value)
-    rt = n1 + rg
 
-        if (n2 == 'Otimo') {
-                rg = (n1 * 100) / 15
-            
-            } else if (n2 == 'Bom') {
-                rg = (n1 * 100) / 10
-                
-            } else if (n2 == 'Regular') {
-                rg = (n1 * 100) / 5
-                
-            } else if (n2 == 'Ruim') {
-                rg = (n1 * 100) / 2
-                
-            } else {
-                rg = n1 + 0
-                
-            }
-        rg.innerHTML =`O valor da sua gorjeta ficou em R$${rg}`
-        rt.innerHTML = `O valor da conta ficou em R$${rt}`
-
-}*/
+}

@@ -14,19 +14,23 @@
         </header>
         <section>
             <div>
-                <h2>Valor da conta:</h2>
-                    <input type="number" name="valcont" id="txtn1">
+                <h2>Valor da conta R$ <input type="number" name="valcont" id="txtn1"></h2>
+                    
             </div>
 
             <div>
-                <h2>Nivel do atendimento:</h2>
+                <h2>Nivel de atendimento:
                     <select id="txtn2">
                         <option value="0.15" id="otimo">Otimo</option>
                         <option value="0.10" id="bom">Bom</option>
-                        <option value="0.5" id="regular">Regular</option>
-                        <option value="0.1" id="ruim">Ruim</option>
+                        <option value="0.05" id="regular">Regular</option>
+                        <option value="0.01" id="ruim">Ruim</option>
                         <option value="0" id="pessimo">Péssimo</option>
                     </select>
+                </h2>
+                <h2>
+                    Quantas pessoas dividirão a conta? <input type="number" name="valcont" id="txtn3">
+                </h2>
                     <br>
                     <br>
                         <input type="button" value="Calcular" onclick="calcular()">
@@ -38,7 +42,7 @@
             </div>
 
             <div>
-                <h2>Valor Final: </h2>
+                <h2>Valor Final: R$ </h2>
                     <p id="rest"></p>
             </div>
 
