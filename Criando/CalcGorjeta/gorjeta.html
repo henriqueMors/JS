@@ -14,36 +14,39 @@
         </header>
         <section>
             <div>
-                <h2>Valor da conta R$ <input type="number" name="valcont" id="txtn1"></h2>
+                <h2>Valor da conta R$ <input type="number" name="valcont" id="valorconta" placeholder="Digite o total da conta"></h2>
                     
             </div>
 
             <div>
                 <h2>Nivel de atendimento:
-                    <select id="txtn2">
-                        <option value="0.15" id="otimo">Otimo</option>
-                        <option value="0.10" id="bom">Bom</option>
-                        <option value="0.05" id="regular">Regular</option>
-                        <option value="0.02" id="ruim">Ruim</option>
-                        <option value="0" id="pessimo">Péssimo</option>
+                    <select id="atendimento">
+                        <option value="0.15">Ótimo</option>
+                        <option value="0.11">Bom</option>
+                        <option value="0.06">Regular</option>
+                        <option value="0.01">Ruim</option>
+                        <option value="0">Péssimo</option>
                     </select>
                 </h2>
                 <h2>
-                    Quantas pessoas dividirão a conta? <input type="number" name="valcont" id="txtn3">
+                    Quantas pessoas dividirão a conta? <input type="number" name="valcont" id="npessoas" placeholder="Nº de Pessoas">
                 </h2>
                     <br>
                     <br>
-                        <input type="button" value="Calcular" onclick="calcular()">
+                        <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+            </div>
+            <div>
+                <h2>Valor por pessoa: R$<div><p id="vporpes">00,00</p></div></h2>
             </div>
 
             <div>
-                <h2>Gorjeta:</h2>
-                    <p id="resg"></p>
+                <h2>Gorjeta R$: <div><p id="gorj">00,00</p></div></h2>
+                
             </div>
 
             <div>
-                <h2>Valor Final: R$ </h2>
-                    <p id="rest"></p>
+                <h2>Valor Final: R$ <div><p id="vfin">00,00</p></div></h2>
+                
             </div>
 
             <div>

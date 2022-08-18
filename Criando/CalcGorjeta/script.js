@@ -18,20 +18,30 @@ if (h >= 6 && h < 12 ) {
     }
 }
 
+document.getElementById('vporpes').style.display = 'none';
+document.getElementById('gorj').style.display = 'none';
+document.getElementById('vfin').style.display = 'none';
+
+
 function calcular() {
-    var tn1 = window.document.getElementById('txtn1')
-    var n1 = Number(tn1.value)
+    var vconta = window.document.getElementById('valorconta').value;
+    var atend = window.document.getElementById('atendimento').value;
+    var npessoas = window.document.getElementById('npessoas').value;
+    var vpp = window.document.getElementById('vporpes').value;
+    var vf = window.document.getElementById('vfin').value;
+
+    if ( vconta === "" || isNaN(vconta) || isNaN(npessoas)) {
+        alert("[ ERROR ] : Digite valor válido!");
+        return;
+
+    }
+
+    if (npessoas ==="" || npessoas <= 1) {
+        npessoas = 1;
+        return;
+
+    }
+    vf = ( vconta * 100 ) / atend 
     
-    var tn2 = window.document.getElementById('txtn2')
-    var n2 = Number(tn2.value)
-
-    var resg = window.document.getElementById('resg')
-    var rg = Number(resg.value)
-
-    var rest = window.document.getElementById('rest')
-    var rt = Number(rest.value)
-
-    resg = (n1 * 100) /n2
-    console.log(resg)
-
 }
+window.alert(vf)
