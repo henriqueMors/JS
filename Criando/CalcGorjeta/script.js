@@ -45,8 +45,8 @@ function calcular() {
 
     }
 
-    var finalgorj = ( vconta * atend ) / npessoas;
-
+    var totalgorj = ( vconta * atend ) / npessoas;
+    var total = totalgorj + ()
     var finalvf = gorj + vconta
     window.alert(finalgorj)
 
