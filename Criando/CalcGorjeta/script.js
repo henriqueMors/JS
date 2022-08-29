@@ -29,19 +29,26 @@ function calcular() {
     var npessoas = window.document.getElementById('npessoas').value;
     var vpp = window.document.getElementById('vporpes').value;
     var vf = window.document.getElementById('vfin').value;
+    var gorj = window.document.getElementById('gorj').value;
 
     if ( vconta === "" || isNaN(vconta) || isNaN(npessoas)) {
         alert("[ ERROR ] : Digite valor válido!");
         return;
 
     }
+    
 
     if (npessoas ==="" || npessoas <= 1) {
         npessoas = 1;
+        document.getElementById('')
         return;
 
     }
-    vf = ( vconta * 100 ) / atend 
-    
+
+    var finalgorj = ( vconta * atend ) / npessoas;
+
+    var finalvf = gorj + vconta
+    window.alert(finalgorj)
+
+
 }
-window.alert(vf)
