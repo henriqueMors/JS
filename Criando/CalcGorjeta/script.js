@@ -26,15 +26,14 @@ function calcular() {
     if (totalconta === "" || isNaN(totalconta) || isNaN(npessoas)) {
         alert("[ ERROR ] : Digite valor válido!");
         return;
-    
-
-    }
+        }
 
     var gorjeta = (totalconta * taxaservico);
-    var vpp = (totalconta + gojeta) /npessoas;
-    var valortotal = gorjeta + totalconta;
+    var vpp = (parseInt(totalconta) + parseInt(gorjeta)) / npessoas;
+    var valortotal = parseInt(gorjeta) + parseInt(totalconta);
 
-    window.alert(gorjeta)
+    document.getElementById('vporpes').innerHTML = vpp
+    document.getElementById('gorj').innerHTML = gorjeta
+    document.getElementById('vfin').innerHTML = valortotal
 
 }
-
