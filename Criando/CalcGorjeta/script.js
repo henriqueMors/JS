@@ -18,41 +18,26 @@ if (h >= 6 && h < 12 ) {
     }
 }
 
-document.getElementById('vporpes').style.display = 'none';
-document.getElementById('gorj').style.display = 'none';
-document.getElementById('vfin').style.display = 'none';
-
-
 function calcular() {
-    var vconta = window.document.getElementById('valorconta').value;
-    var atend = window.document.getElementById('atendimento').value;
-    var npessoas = window.document.getElementById('npessoas').value;
-    var vpp = window.document.getElementById('vporpes').value;
-    var vf = window.document.getElementById('vfin').value;
-    var gorj = window.document.getElementById('gorj').value;
+    var totalconta = document.getElementById('vconta').value;
+    var taxaservico = document.getElementById('atendimento').value;
+    var npessoas = document.getElementById('npessoas').value;
 
-    if ( vconta === "" || isNaN(vconta) || isNaN(npessoas)) {
+    if (totalconta === "" || isNaN(totalconta) || isNaN(npessoas)) {
         alert("[ ERROR ] : Digite valor válido!");
         return;
-
-    }
     
 
-    if (npessoas ==="" || npessoas <= 1) {
-        npessoas = 1;
-        document.getElementById('')
-        return;
-
     }
 
-    var totalgorj = ( vconta * atend ) / npessoas;
+    var gorjeta = (totalconta * taxaservico);
+    var vpp = (totalconta + gojeta) /npessoas;
+    var valortotal = gorjeta + totalconta;
 
-    var totalpp = totalgorj + (vconta / npessoas)
-   
-    var finalvf = totalgorj + vconta;
-
-    totalgorj.innerHTML = totalgorj;
-    document.getElementById('vporpes').style.display = "block";
-    document.getElementById('vfin').style.display = "block";
+    window.alert(gorjeta)
 
 }
+
+217052743
+
+100022000
