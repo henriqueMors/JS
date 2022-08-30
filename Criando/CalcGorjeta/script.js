@@ -46,9 +46,13 @@ function calcular() {
     }
 
     var totalgorj = ( vconta * atend ) / npessoas;
-    var total = totalgorj + ()
-    var finalvf = gorj + vconta
-    window.alert(finalgorj)
 
+    var totalpp = totalgorj + (vconta / npessoas)
+   
+    var finalvf = totalgorj + vconta;
+
+    totalgorj.innerHTML = totalgorj;
+    document.getElementById('vporpes').style.display = "block";
+    document.getElementById('vfin').style.display = "block";
 
 }
