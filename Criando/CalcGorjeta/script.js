@@ -32,6 +32,12 @@ function calcular() {
     var vpp = (parseInt(totalconta) + parseInt(gorjeta)) / npessoas;
     var valortotal = parseInt(gorjeta) + parseInt(totalconta);
 
+    /*gorjeta = Math.round(gorjeta * 100) / 100;
+    valortotal = Math.round(valortotal * 100) / 100;*/
+    vpp = vpp.toFixed(2);
+    gorjeta = gorjeta.toFixed(2);
+    valortotal = valortotal.toFixed(2);
+
     document.getElementById('vporpes').innerHTML = vpp
     document.getElementById('gorj').innerHTML = gorjeta
     document.getElementById('vfin').innerHTML = valortotal

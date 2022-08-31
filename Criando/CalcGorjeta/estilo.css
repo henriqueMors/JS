@@ -10,7 +10,7 @@ section {
     background-color: rgba(1, 117, 78, 0.087);
     border-radius: 20px;
     box-shadow: 25px 25px 15px;
-    height: 420px;
+    height: 550px;
     padding: 20px;
     line-height: 20px;
 }
@@ -37,4 +37,10 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     padding: 50px;
+}
+
+#img1 {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
 }
