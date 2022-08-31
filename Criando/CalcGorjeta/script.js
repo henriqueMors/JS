@@ -29,11 +29,9 @@ function calcular() {
         }
 
     var gorjeta = (totalconta * taxaservico);
-    var vpp = (parseInt(totalconta) + parseInt(gorjeta)) / npessoas;
+    var vpp = (parseFloat(totalconta) + parseFloat(gorjeta)) / npessoas;
     var valortotal = parseInt(gorjeta) + parseInt(totalconta);
 
-    /*gorjeta = Math.round(gorjeta * 100) / 100;
-    valortotal = Math.round(valortotal * 100) / 100;*/
     vpp = vpp.toFixed(2);
     gorjeta = gorjeta.toFixed(2);
     valortotal = valortotal.toFixed(2);
